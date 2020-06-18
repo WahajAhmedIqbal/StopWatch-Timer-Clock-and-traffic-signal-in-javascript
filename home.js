@@ -1,15 +1,16 @@
-var interval;
+var interval1;
 function startimer(){
-    interval = setInterval(timer, 1000);
+    interval1 = setInterval(timer, 1000);
 }
 function timer(){
     var date = new Date().toLocaleTimeString();
     document.getElementById('demo').innerHTML = date;
 }
 function stoptimer(){
-    clearInterval(interval)
+    clearInterval(interval1)
 }
 // ////////////////////////////////////////////// timer ////////////
+var indrerval2;
 var counter = 0;
 var timelift = parseInt(prompt("Enter num"));
 function convertsec(s)
@@ -18,19 +19,19 @@ function convertsec(s)
         var sec = s % 60;
         return min +  ":" + sec;
     }
-var intervel = setInterval(timeIt , 1000);
+var intervel2 = setInterval(timeIt , 1000);
 function timeIt()
     {
         counter++;
         document.getElementById('timer').innerHTML = convertsec((timelift - counter));
         if(counter == timelift)
         {
-            clearInterval(intervel);
-            document.getElementById('paras').innerHTML = "time over";
+            clearInterval(intervel2);
+            document.getElementById('paras').innerHTML = "<h2>time over</h2>";
         }
     }
 ////////////////////////////////////// stop watch///////////////
-var intervel;
+var intervel3;
 var hours = 0;
 var minuts = 0;
 var sec = 0;
@@ -55,46 +56,20 @@ function StopWatch()
                     }
             }
             
-            if(sec < 9)
-            {
-                displaysec = "0" + sec.toString();
-                console.log(displaysec);
-            }
-            else if(sec >=10);
-            {
-                displaysec = sec;
-                console.log(displaysec);
-
-            }
-            if(minuts < 10)
-            {
-                displaymin = "0" + minuts.toString();
-            }
-            else;
-            {
-                displaymin = minuts;
-            }
-            if(hours < 10)
-            {
-                displayhour = "0" + hours.toString();
-            }
-            else;
-            {
-                displayhour = hours;
-            }
+           
             
-            document.getElementById("display").innerHTML = displayhour + ':' + displaymin + ':' + displaysec;
+            document.getElementById("display").innerHTML = hours + ':' + minuts + ':' + sec;
             
     }
         
         
         function startwatch()
         {
-            intervel = setInterval(StopWatch , 100);
+            intervel3 = setInterval(StopWatch , 10);
         }
         function stopwatch()
         {
-        clearInterval(intervel);
+        clearInterval(intervel3);
     }
     function resetwatch()
     {

@@ -2,35 +2,45 @@
 {
     width: 100%;
     height: 800px;
+    padding-left: 15%;
+    BACKGROUND-COLOR: #69F0AE;
     background-size: cover;
-    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQMRfiowqiuOW60zKN-S_hh_bWZxZAdGW1V2vDOZoF5Li_yjMRD&usqp=CAU');
+    /* background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQMRfiowqiuOW60zKN-S_hh_bWZxZAdGW1V2vDOZoF5Li_yjMRD&usqp=CAU'); */
 }
 #container
 {
-    background-color: orchid;
     width: 500px;
     height: 400px;
     margin: 0 auto;
-
+    padding: 1px;
 }
 .box1
-{
+{    margin-top: 15px;
     text-align: center;
-    height: 100px;
-    background-color: yellowgreen;
-    margin-top: 2;
+    height: 109px;
+    background-color: #84FFFF A200 #18FFFF A400 #00E5FF A700 #00B8D4;
+    /* border-radius: 66%; */
+    border-radius: 5%;
+    width: 60%;
+    background-color: #00E5FF;
     
 }
 .box2
 {
+    border-radius: 6%;
+    margin-top: 15px;
+    /* margin: 17px; */
     text-align: center;
-    height: 100px;
-    background-color:aquamarine;
-    
+    height: 148px;
+    background-color: #18FFFF;
+    width: 60%;
 }
 .box3
 {
+    margin-top: 25px;
     text-align: center;
-    height: 100px;
-    background-color: wheat;
+    height: 140px;
+    background-color: #84FFFF;
+    border-radius: 6%;
+    width: 60%;
 }
