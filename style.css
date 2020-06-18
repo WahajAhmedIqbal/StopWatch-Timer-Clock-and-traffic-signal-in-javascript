@@ -15,18 +15,22 @@
 }
 .box1
 {
+    text-align: center;
     height: 100px;
     background-color: yellowgreen;
+    margin-top: 2;
     
 }
 .box2
 {
+    text-align: center;
     height: 100px;
     background-color:aquamarine;
     
 }
 .box3
 {
+    text-align: center;
     height: 100px;
     background-color: wheat;
 }
