@@ -1,6 +1,6 @@
 .mainDiv
 {
-    background-color: burlywood;
+    background-color: lightcoral;
     height: 1000px;
 }
 .mainbox
@@ -10,16 +10,17 @@
 }
 .mainheading
 {
-
+    font-size: 65px;
 }
 .box1
 {
+    background-color: slategrey;
     border: 1px solid;
     border-radius: 50%;
     width: 100px;
     height: 262px;
     margin-left: 40%;
-    margin-top: 70px;
+    margin-top: 44px;
 }
 .box2
 {
@@ -28,7 +29,7 @@
     width: 139px;
     padding: 24px;
     position: relative;
-    left: 55%;
+    left: 60%;
     top: -266px;
 
 }
@@ -40,6 +41,7 @@
     top: 29px;
     position: relative;
     left: 24px;
+    height: 54px;
 }
 .yellow
 {
@@ -49,6 +51,7 @@
     top: 39px;
     position: relative;
     left: 24px;
+    height: 54px;
 }
 .green
 {
@@ -58,6 +61,7 @@
     position: relative;
     top: 50px;
     left: 24px;
+    height: 54px;
 }
 .red1
 {

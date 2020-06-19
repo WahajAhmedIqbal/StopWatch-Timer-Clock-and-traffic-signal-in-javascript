@@ -10,16 +10,18 @@
 <body>
     <div class="container-fluid mainDiv">
         <div class="container mainbox">
-            <h1 class="mainheading">Traffic Signal</h1>
+            <h1 class="mainheading" >Traffic Signal</h1>
+            <button class="btn btn-primary"  style="width: 110px;" id="auto" onclick="automatic();">Automatic</button>
+            <button class="btn btn-primary" style="width: 110px;"  onclick="clr();" >Stop</button>
             <div class="box1">
-                <h1 class="red" id="redred">r</h1>
-                <h1 class="yellow">y</h1>
-                <h1 class="green">g</h1>
+                <h1 class="red" id="redred"></h1>
+                <h1 class="yellow" id="yellowyellow"></h1>
+                <h1 class="green" id="greengreen"></h1>
             </div>
                 <div class="box2">
-                    <img src="23.jpg" style="width: 60px;" class="red1" alt="this" onclick="redcolor();">
-                    <img src="2.jpeg" style = "width: 90px;" class="yellow1" alt="is ">
-                    <img src="3.jpeg" style="width: 66px;" class="green1" alt="jhoon">
+                    <img src="23.jpg" style="width: 60px;" class="red1" alt="this" onclick="maincolor('red');">
+                    <img src="2.jpeg" style = "width: 90px;" class="yellow1" alt="is " onclick="maincolor('yellow');">
+                    <img src="3.jpeg" style="width: 66px;" class="green1" alt="jhoon" onclick="maincolor('green');">
                   </div>
         </div>
     </div>
