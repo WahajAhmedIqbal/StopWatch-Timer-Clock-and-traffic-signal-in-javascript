@@ -14,52 +14,63 @@
 }
 .box1
 {
-    width: 110px;
-}
-.box1 h1
-{
-    position: absolute;
-    left: 280px;
-    top: 58px;
     border: 1px solid;
-}
-.btn1
-{
-    position: absolute;
-    right: 260px;
-    top: 64px;
+    border-radius: 50%;
+    width: 100px;
+    height: 262px;
+    margin-left: 40%;
+    margin-top: 70px;
 }
 .box2
 {
-    width: 110px;
+    
+    border: 5px solid;
+    width: 139px;
+    padding: 24px;
+    position: relative;
+    left: 55%;
+    top: -266px;
+
 }
-.box2 h1
+.red
 {
-    position: absolute;
-    left: 279px;
-    top: 115px;
-    border: 1px solid;
+    border: 1px solid red;
+    border-radius: 50%;
+    width: 54px;
+    top: 29px;
+    position: relative;
+    left: 24px;
 }
-.btn2
+.yellow
 {
-    position: absolute;
-    right: 260px;
-    top: 121px;
+    border: 1px solid #ffe000;
+    border-radius: 50%;
+    width: 54px;
+    top: 39px;
+    position: relative;
+    left: 24px;
 }
-.box3
+.green
 {
-    width: 110px;
+    border: 1px solid #41e43e;
+    border-radius: 50%;
+    width: 54px;
+    position: relative;
+    top: 50px;
+    left: 24px;
 }
-.box3 h1
+.red1
 {
-    border: 1px solid;
-    position: absolute;
-    left: 279px;
-    top: 170px;
+    position: relative;
+    top: -12px;
 }
-.btn3
+.yellow1
 {
-    position: absolute;
-    right: 260px;
-    top: 180px;
+    position: relative;
+    top: 0px;
+}
+.green1
+{
+    position: relative;
+    top: 14px;
 }
